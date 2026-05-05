@@ -8,3 +8,5 @@ function analiseString(str) {
 }
 
 analiseString("Bruno");
+
+// Desafio de amanha e abrir o copilot no ultimo chat e fazer uma mini funcão com Upper leter or down etc
