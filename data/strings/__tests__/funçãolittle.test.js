@@ -1,5 +1,5 @@
 // Importa funçao
-const {brincarComString} = require('../funçãolitle');
+const {brincarComStrings} = require('../funçãolitle');
 
 // Testa a função
 
@@ -11,5 +11,13 @@ test('Deve conter César apos o replace', () => {
 
 test ('Caso de Borda: String vazia', () => {
     const resultado = "";
-    expect(resultado).toBe("");
+    expect(resultado).toBe(""); 
+});
+
+test('Deve falhar se eu procurar sem acento', () => {
+
+    const resultado = brincarComStrings("Bruno César");
+
+    //Procure por "Cesar" sem acento onde so existe com acento
+    expect(resultado).toBe("César César");
 });
