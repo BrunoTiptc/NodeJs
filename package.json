@@ -1,0 +1,21 @@
+{
+  "name": "algoritmos",
+  "version": "1.0.0",
+  "description": "Projeto de algoritmos em JavaScript com testes usando Jest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "javascript",
+    "algoritmos",
+    "jest",
+    "testes"
+  ],
+  "author": "Bruno",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
